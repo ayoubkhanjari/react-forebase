@@ -127,7 +127,7 @@ button:focus-visible {
   text-decoration: inherit;
 }
 .main-wrapper a:hover {
-  color: #535bf2;
+  color: #ae2929;
 }
 
 .main-wrapper h1 {
@@ -147,7 +147,7 @@ button:focus-visible {
   transition: border-color 0.25s;
 }
 .main-wrapper button:hover {
-  border-color: #646cff;
+  border-color: #a62222;
 }
 .main-wrapper button:focus,
 .main-wrapper button:focus-visible {
@@ -161,10 +161,10 @@ button:focus-visible {
   }
 
   .main-wrapper a:hover {
-    color: #747bff;
+    color: #a6222285;
   }
 
   .main-wrapper button {
-    background-color: #f9f9f9;
+    background-color: #a62222;
   }
 }
