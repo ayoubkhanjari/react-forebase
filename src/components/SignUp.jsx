@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { AiOutlineEye, AiOutlineEyeInvisible } from "react-icons/ai";
 import { handleSignUp } from '../Config';
 import { useNavigate } from "react-router-dom";
-import "../css/Auth.css";
+// import "../css/Auth.css";
 
 function SignUp() {
   const [formVisible, setFormVisible] = useState(false);
@@ -36,6 +36,7 @@ function SignUp() {
         ${formVisible ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-10'} transform transition-all duration-500
         ease-out`}>
         <h2 className='text-3xl font-bold text-center mb-4'>Create Account</h2>
+        <img src="./hero.png" alt="Hero Banner" className="p-0 m-0"  />
         <p className='text-gray-400 text-center mb-6'>Sign up to get started</p>
 
         {error && <p className='text-red-500 text-center mb-4'>{error}</p>}
