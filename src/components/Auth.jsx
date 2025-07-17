@@ -3,7 +3,9 @@ import { AiOutlineEye, AiOutlineEyeInvisible } from "react-icons/ai";
 import { FcGoogle } from "react-icons/fc";
 import { handleGoogleLogin, handleSubmit } from '../Config';
 import { useNavigate } from "react-router-dom";
-import "../css/Auth.css"
+import "../css/Auth.css";
+
+
 
 function Auth() {
 
