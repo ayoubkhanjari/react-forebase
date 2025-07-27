@@ -1,7 +1,7 @@
 import { createContext, useContext, useState, useEffect } from "react";
-import { auth } from "../Config"; // your firebase config
+import { auth } from "../Config"; //  firebase config
 import { getFirestore, collection, query, where, getDocs, addDoc, deleteDoc, doc } from "firebase/firestore";
-import { getPopularMovies } from "../services/api"; // your TMDb API functions
+import { getPopularMovies } from "../services/api"; //  TMDb API functions
 import { onAuthStateChanged } from "firebase/auth";
 
 
